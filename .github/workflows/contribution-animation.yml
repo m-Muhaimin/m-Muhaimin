@@ -1,0 +1,87 @@
+# ╔══════════════════════════════════════════════════════════════════════════════╗
+# ║  🎮 CONTRIBUTION SHOWCASE WORKFLOW                                           ║
+# ║  ────────────────────────────────────────────────────────────────────────────║
+# ║  Generates Pac-Man and Snake animations for contribution graph              ║
+# ║  Runs daily and on push to main branch                                       ║
+# ╚══════════════════════════════════════════════════════════════════════════════╝
+
+name: Generate Contribution Animations
+
+on:
+  # Run daily at midnight UTC
+  schedule:
+    - cron: "0 0 * * *"
+  
+  # Run on push to main
+  push:
+    branches:
+      - main
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  generate-pacman:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+      # ═══════════════════════════════════════════════════════════════════════
+      # 📥 Checkout Repository
+      # ═══════════════════════════════════════════════════════════════════════
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      # ═══════════════════════════════════════════════════════════════════════
+      # 🟢 Setup Node.js
+      # ═══════════════════════════════════════════════════════════════════════
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      # ═══════════════════════════════════════════════════════════════════════
+      # 📁 Create Output Directory
+      # ═══════════════════════════════════════════════════════════════════════
+      - name: Create dist directory
+        run: mkdir -p dist
+      
+      # ═══════════════════════════════════════════════════════════════════════
+      # 👾 Generate Pac-Man Animation
+      # ═══════════════════════════════════════════════════════════════════════
+      - name: Generate Pac-Man Animation
+        run: |
+          npm install pacman-contribution-graph@latest
+          npx pacman-contribution-graph --user ${{ github.repository_owner }} --output dist/pacman-contribution-graph.svg || true
+          npx pacman-contribution-graph --user ${{ github.repository_owner }} --output dist/pacman-contribution-graph-dark.svg --dark || true
+        continue-on-error: true
+      
+      # ═══════════════════════════════════════════════════════════════════════
+      # 🐍 Generate Snake Animation (Backup)
+      # ═══════════════════════════════════════════════════════════════════════
+      - name: Generate Snake Animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+        continue-on-error: true
+      
+      # ═══════════════════════════════════════════════════════════════════════
+      # 📋 List Generated Files
+      # ═══════════════════════════════════════════════════════════════════════
+      - name: List generated files
+        run: ls -la dist/
+      
+      # ═══════════════════════════════════════════════════════════════════════
+      # 📤 Push to output branch
+      # ═══════════════════════════════════════════════════════════════════════
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
