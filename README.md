@@ -31,6 +31,10 @@
     <img src="https://komarev.com/ghpvc/?username=red1-for-hek&label=Profile%20Views&color=764ba2&style=flat-square&base=1700" alt="Profile Views"/>
   </a>
   &nbsp;
+  <a href="https://github.com/red1-for-hek?tab=repositories">
+    <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fred1-for-hek&query=%24.public_repos&suffix=%2B&label=Repositories&style=flat-square&color=f093fb&labelColor=1a1b26" alt="Repositories"/>
+  </a>
+  &nbsp;
   <a href="https://github.com/red1-for-hek?tab=followers">
     <img src="https://img.shields.io/github/followers/red1-for-hek?label=Followers&style=flat-square&color=667eea&labelColor=1a1b26" alt="Followers"/>
   </a>
@@ -203,9 +207,9 @@ life_philosophy: "Code is poetry. AI is the canvas."
   
   <!-- Pac-Man Contribution Graph -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/red1-for-hek/red1-for-hek/output/pacman-contribution-graph-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/red1-for-hek/red1-for-hek/output/pacman-contribution-graph.svg"/>
-    <img alt="Pac-Man eating contributions" src="https://raw.githubusercontent.com/red1-for-hek/red1-for-hek/output/pacman-contribution-graph-dark.svg" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/pacman-contribution-graph-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/pacman-contribution-graph.svg"/>
+    <img alt="Pac-Man eating contributions" src="./assets/pacman-contribution-graph-dark.svg" width="100%"/>
   </picture>
   
   <br/>
@@ -397,7 +401,7 @@ life_philosophy: "Code is poetry. AI is the canvas."
   <br/>
   
   <!-- ☕ BUY ME A COFFEE -->
-  <a href="https://www.buymeacoffee.com/YOUR_USERNAME_HERE" target="_blank">
+  <a href="https://buymeacoffee.com/redoyanul1y" target="_blank">
     <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/>
   </a>
   

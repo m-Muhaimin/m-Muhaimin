@@ -24,37 +24,18 @@ jobs:
   generate-pacman:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: write
     
     steps:
       # ═══════════════════════════════════════════════════════════════════════
-      # 📥 Checkout Repository
+      # 👾 Generate Pac-Man Animation using official GitHub Action
       # ═══════════════════════════════════════════════════════════════════════
-      - name: Checkout
-        uses: actions/checkout@v4
-      
-      # ═══════════════════════════════════════════════════════════════════════
-      # 🟢 Setup Node.js
-      # ═══════════════════════════════════════════════════════════════════════
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Generate Pac-Man Contribution Graph
+        uses: abozanona/pacman-contribution-graph@main
         with:
-          node-version: '20'
-      
-      # ═══════════════════════════════════════════════════════════════════════
-      # 📁 Create Output Directory
-      # ═══════════════════════════════════════════════════════════════════════
-      - name: Create dist directory
-        run: mkdir -p dist
-      
-      # ═══════════════════════════════════════════════════════════════════════
-      # 👾 Generate Pac-Man Animation
-      # ═══════════════════════════════════════════════════════════════════════
-      - name: Generate Pac-Man Animation
-        run: |
-          npm install pacman-contribution-graph@latest
-          npx pacman-contribution-graph --user ${{ github.repository_owner }} --output dist/pacman-contribution-graph.svg || true
-          npx pacman-contribution-graph --user ${{ github.repository_owner }} --output dist/pacman-contribution-graph-dark.svg --dark || true
-        continue-on-error: true
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
       
       # ═══════════════════════════════════════════════════════════════════════
       # 🐍 Generate Snake Animation (Backup)
