@@ -199,13 +199,13 @@ I’m currently researching and building:
 # 🌐 Connect With Me
 
 GitHub  
-https://github.com/YOUR_USERNAME  
+https://github.com/m-Muhaimin  
 
 LinkedIn  
-https://linkedin.com/in/YOUR_LINK  
+https://linkedin.com/in/mahmud-al-muhaimin 
 
 Email  
-YOUR_EMAIL  
+hi@muhaimin.dev 
 
 ---
 
