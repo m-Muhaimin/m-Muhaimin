@@ -97,7 +97,7 @@ This architecture powers the **AI agents and systems I build.**
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api?username=m-Muhaimin&show_icons=true&theme=tokyonight&hide_border=true"/>
 
 </p>
 
@@ -105,7 +105,7 @@ This architecture powers the **AI agents and systems I build.**
 
 <p align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=m-Muhaimin&theme=tokyo-night&hide_border=true"/>
 
 </p>
 
@@ -113,15 +113,15 @@ This architecture powers the **AI agents and systems I build.**
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api?username=m-Muhaimin&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=m-Muhaimin&theme=tokyonight&hide_border=true"/>
 
 </p>
 
 <p align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=m-Muhaimin&theme=tokyo-night&hide_border=true"/>
 
 </p>
 
@@ -151,10 +151,10 @@ I’m currently researching and building:
 # 🌐 Connect With Me
 
 GitHub  
-https://github.com/YOUR_USERNAME  
+https://github.com/m-Muhaimin  
 
 LinkedIn  
-https://linkedin.com/in/YOUR_LINK  
+https://linkedin.com/in/mahmud-al-muhaimin
 
 Email  
 YOUR_EMAIL  
