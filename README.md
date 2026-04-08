@@ -1,86 +1,29 @@
 <!-- ========================================================= -->
-<!--                     HERO HEADER                            -->
+<!--                 AI LAB TERMINAL HEADER                     -->
 <!-- ========================================================= -->
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Mahmud%20Al%20Muhaimin&fontAlign=50&fontAlignY=40&color=0:0f2027,50:203a43,100:2c5364&fontSize=42&fontColor=ffffff&animation=fadeIn"/>
-</p>
+<pre align="center">
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║      ███╗   ███╗ █████╗ ██╗  ██╗███╗   ███╗██╗   ██╗██████╗   ║
+║      ████╗ ████║██╔══██╗██║  ██║████╗ ████║██║   ██║██╔══██╗  ║
+║      ██╔████╔██║███████║███████║██╔████╔██║██║   ██║██║  ██║  ║
+║      ██║╚██╔╝██║██╔══██║██╔══██║██║╚██╔╝██║██║   ██║██║  ██║  ║
+║      ██║ ╚═╝ ██║██║  ██║██║  ██║██║ ╚═╝ ██║╚██████╔╝██████╔╝  ║
+║      ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═════╝   ║
+║                                                              ║
+║          ░▒▓ AI SYSTEMS LAB • CORE TERMINAL ▓▒░               ║
+║                                                              ║
+║      > IDENTITY: MAHMUD AL MUHAIMIN                          ║
+║      > ROLE: AI ENGINEER / AGENT ARCHITECT                   ║
+║      > STATUS: BUILDING AUTONOMOUS SYSTEMS                   ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+</pre>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1000&color=22F7A1&center=true&vCenter=true&width=700&lines=AI+Engineer;Autonomous+Agent+Builder;Machine+Learning+Explorer;Designing+Intelligent+Systems"/>
+<code>boot sequence initialized...</code> ⚡ <code>ai-core online</code> 🤖
 </p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-AI%20Engineering-blue?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-Machine%20Learning-red?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Automation-AI%20Agents-green?style=for-the-badge&logo=githubactions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/System%20Design-AI%20Architecture-purple?style=for-the-badge&logo=architect&logoColor=white"/>
-</p>
-
----
-
-# ⚡ LOAD BALANCED
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-```bash
-> ./init_profile.sh --verbose
-
-[LOADING] Identity Module... OK
-[NAME]    Mahmud Al Muhaimin
-[ROLE]    AI Engineer
-[FOCUS]   Autonomous Systems
-[STATUS]  Building intelligent machines
-
-> executing main_loop...
-> loading projects...
-> initializing AI architecture...
-> SYSTEM READY.
-```
-
-</td>
-<td width="50%" valign="top">
-
-### `class AI_Engineer:`
-
-I build **AI systems that reason, remember, and act**.
-
-Moving beyond static applications, my work focuses on:
-
-- 🤖 **Autonomous Agents**: Self-directing workflows
-- ⚙️ **Intelligent Pipelines**: Automated reasoning loops
-- 🧠 **ML Systems**: Custom model integration
-- 🚀 **DevTools**: AI-powered productivity enhancers
-
-`return "Software that thinks before it executes."`
-
-</td>
-</tr>
-</table>
-
----
-
-# 🧠 ARCHITECTURE BLUEPRINT
-
-<p align="center">
-  <i>The underlying logic of the autonomous systems I design.</i>
-</p>
-
-```mermaid
-graph TD
-    User((USER)) -->|Query| Prob[Problem Definition]
-    Prob -->|Context| Reason[Reasoning Engine<br/>LLM Planner]
-    Reason -->|Fetch| Data[(Data Layer<br/>APIs + Vector DB)]
-    Data -->|Embed| Memory[Memory Context<br/>RAG / State]
-    Memory -->|Plan| Action[Action Executor<br/>Automation Tools]
-    Action -->|Result| User
-    
-    style Reason fill:#2c5364,stroke:#22F7A1,stroke-width:2px,color:#fff
-    style Memory fill:#203a43,stroke:#22F7A1,stroke-width:2px,color:#fff
-    style Action fill:#0f2027,stroke:#22F7A1,stroke-width:2px,color:#fff
-```
 
 ---
 
