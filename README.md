@@ -19,7 +19,7 @@
 
 ---
 
-# ⚡ SYSTEM STATUS: ONLINE
+# ⚡ LOAD BALANCED
 
 <table>
 <tr>
