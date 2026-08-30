@@ -12,7 +12,7 @@
 <br/><br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=680&lines=Building+full-stack+products+with+React+%2F+Next.js+%2F+Node.js;Shipping+AI+features+%E2%80%94+LLMs%2C+RAG%2C+agentic+workflows;PyTorch+%2B+TensorFlow+for+applied+ML+%2F+computer+vision;Currently+building+SuprBuild+Mesh+%26+Krostio" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=680&lines=Building+full-stack+products+with+React+%2F+Node.js;Shipping+AI+features+%E2%80%94+LLMs%2C+RAG%2C+agentic+workflows;PyTorch+%2B+TensorFlow+for+applied+ML;Currently+building+SuprBuild+Mesh+%26+Krostio" />
 </a>
 
 </div>
