@@ -1,21 +1,25 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:6D28D9&height=220&section=header&text=Mahmud%20Al%20Muhaimin&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20%2B%20AI%20Engineer%20%E2%80%94%20Dhaka,%20Bangladesh&descSize=18&descAlignY=58&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:05070C,60:0B0F19,100:0F2E24&height=220&section=header&text=Mahmud%20Al%20Muhaimin&fontSize=52&fontColor=22F7A1&fontAlignY=38&desc=Full-Stack%20%2B%20AI%20Engineer%20%E2%80%94%20Dhaka,%20Bangladesh&descSize=18&descAlignY=58&descColor=E6FFF5&animation=fadeIn"/>
 
 <br/>
 
-<a href="https://muhaimin.dev"><img src="https://img.shields.io/badge/muhaimin.dev-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-<a href="https://linkedin.com/in/mahmud-al-muhaimin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://x.com/MMuhaminn"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-<a href="mailto:mahmudalmuhaimin055@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://muhaimin.dev"><img src="https://img.shields.io/badge/muhaimin.dev-0B0F19?style=for-the-badge&logo=vercel&logoColor=22F7A1" /></a>
+<a href="https://linkedin.com/in/mahmud-al-muhaimin"><img src="https://img.shields.io/badge/LinkedIn-0B0F19?style=for-the-badge&logo=linkedin&logoColor=22F7A1" /></a>
+<a href="https://x.com/MMuhaminn"><img src="https://img.shields.io/badge/X-0B0F19?style=for-the-badge&logo=x&logoColor=22F7A1" /></a>
+<a href="mailto:mahmudalmuhaimin055@gmail.com"><img src="https://img.shields.io/badge/Email-0B0F19?style=for-the-badge&logo=gmail&logoColor=22F7A1" /></a>
 
 <br/><br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=680&lines=Building+full-stack+products+with+React+%2F+Node.js;Shipping+AI+features+%E2%80%94+LLMs%2C+RAG%2C+agentic+workflows;PyTorch+%2B+TensorFlow+for+applied+ML;Currently+building+SuprBuild+Mesh+%26+Krostio" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=22&duration=2800&pause=900&color=22F7A1&center=true&vCenter=true&width=700&lines=Building+end-to-end+products+with+React+%2F+Next.js+%2F+Node.js;Shipping+AI+features+%E2%80%94+LLMs%2C+RAG%2C+agentic+workflows;PyTorch+%2B+TensorFlow+for+applied+ML+%2F+computer+vision;Currently+building+SuprBuild+Mesh+%26+Krostio" />
 </a>
 
 </div>
+
+<br/>
+
+> **Note on typography:** GitHub markdown can't load custom web fonts for body text, so I matched the *feel* of muhaimin.dev — a bold geometric display face paired with a clean sans — using **Space Grotesk** on the animated banner above. The rest of this README renders in GitHub's default system font, same as every profile page.
 
 <br/>
 
@@ -27,9 +31,9 @@ engineer:
   base: Dhaka, Bangladesh
   focus: [Full-Stack Development, AI/LLM Engineering, Applied Machine Learning]
   currently_building:
-    - SuprBuild Mesh   → agent/task backend — Node.js, Express, SQLite
-    - Route52          → Bangla-native AI assistant
-    - Krostio          → income-tracking product for gig workers
+    - SuprBuild Mesh → agent/task backend — Node.js, Express, SQLite
+    - Route52        → Bangla-native AI assistant
+    - Krostio        → income-tracking product for gig workers
   education: BSc Software Engineering, Yunnan University
   approach: "ship end-to-end — frontend, backend, data, and the AI layer that ties it together"
 ```
@@ -57,9 +61,9 @@ I'm a software engineer who builds complete products — React/Next.js on the fr
 **AI / ML**
 <br/>
 <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&theme=dark" />
-<img src="https://img.shields.io/badge/LLM%20APIs-8B5CF6?style=for-the-badge" />
-<img src="https://img.shields.io/badge/RAG-6D28D9?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Agentic%20Workflows-4C1D95?style=for-the-badge" />
+<img src="https://img.shields.io/badge/LLM%20APIs-0B0F19?style=for-the-badge&logoColor=22F7A1" />
+<img src="https://img.shields.io/badge/RAG-0B0F19?style=for-the-badge&logoColor=22F7A1" />
+<img src="https://img.shields.io/badge/Agentic%20Workflows-0B0F19?style=for-the-badge&logoColor=22F7A1" />
 
 <br/><br/>
 
@@ -135,12 +139,12 @@ API-oriented backend pairing application logic with a database layer for practic
 ## 📊 GitHub Stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=m-Muhaimin&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=8B5CF6&text_color=C9D1D9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-Muhaimin&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=m-Muhaimin&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B0F19&title_color=22F7A1&icon_color=22F7A1&text_color=C9D1D9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-Muhaimin&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B0F19&title_color=22F7A1&text_color=C9D1D9" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=m-Muhaimin&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=8B5CF6&currStreakLabel=8B5CF6" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=m-Muhaimin&theme=tokyonight&hide_border=true&background=0B0F19&ring=22F7A1&fire=22F7A1&currStreakLabel=22F7A1" />
 
 </div>
 
@@ -156,5 +160,5 @@ API-oriented backend pairing application logic with a database layer for practic
 <br/>
 
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,50:1E3A8A,100:0F172A&height=100&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2E24,60:0B0F19,100:05070C&height=100&section=footer"/>
 </div>
